@@ -5,7 +5,7 @@
       "buildCommand": "echo building!"
     },
     "deploy": {
-      "startCommand": "echo starting!",
+      "startCommand": "node server.js",
       "healthcheckPath": "/",
       "healthcheckTimeout": 100,
       "restartPolicyType": "never"
